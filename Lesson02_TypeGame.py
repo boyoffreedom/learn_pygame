@@ -1,3 +1,4 @@
+#本段代码依赖background文件夹
 import sys, random, time, pygame
 from pygame.locals import *
 
