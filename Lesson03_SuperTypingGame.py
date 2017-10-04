@@ -122,8 +122,8 @@ while True:
 
     for i in range(0,11):
         if(i < cnt):
-            print_text(font2,10+i*90, 490, chr(correct_answer[i] - 32), black)  # 描绘阴影
-            print_text(font2, 0+i*90, 480, chr(correct_answer[i] - 32), green)     #已正确打出的字
+            print_text(font2,10+i*90, 470, chr(correct_answer[i] - 32), black)  # 描绘阴影
+            print_text(font2, 0+i*90, 460, chr(correct_answer[i] - 32), green)     #已正确打出的字
         else:
             print_text(font2,10+i*90, 490, chr(correct_answer[i] - 32), black)      #描绘阴影
             print_text(font2, 0+i*90, 480, chr(correct_answer[i] - 32), yellow)    #未打出的字
